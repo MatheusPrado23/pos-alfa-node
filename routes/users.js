@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 /* GET em /users/:id */
 router.get('/:id', function(req, res, next) {
   const id = req.paramas.id
-  res.send('consulta 1 usuário pelo seu id = ${id}')
+  res.send('consulta 1 usuário somente pelo seu id = ${id}')
 })
 
 module.exports = router
